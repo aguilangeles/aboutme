@@ -18,60 +18,55 @@ header ul {
 	text-decoration: none;  
 	margin-right: 70px;
 	vertical-align: text-bottom;	
-    	padding-top: 20px;
-
-
+    padding-top: 20px;
 }
+
 header ul li{	
 	display: inline;
-	margin: 0 10px 0 10px;
+	margin: 0 15px 0 15px;
+	
 
 }
-
-a:link{
+header li a {
+	color:white;
 	text-decoration: none;  
-
 }
+
 #header, .nombre, .social, .address, .contactme, .portfolio, .aboutme{
 	text-transform: uppercase;
 }
 
 /*===================================fin header====================================*/
-
+#presentacion, #portfolio{
+	padding: 60px 0 60px 0;
+}
 #presentacion{
-	min-height: 400px;
+	min-height: 300px;
 	text-align: center;
 	background-color: rgb(40,187,156);
-	padding: 70px 0 70px 0;
-
-
+	
 }
 
 .line{
 font-size:20px;
 vertical-align: text-top;
-
-
-    margin-top: 10px;
-    margin-bottom: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
 .nombre{
 	font-size: 60px;	
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
-
 
 .icono, .categoria{
 	font-size: 30px;
-
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
-#profile{
+#portfolio{
 text-align: center;
 	color:black;
 }
@@ -94,7 +89,7 @@ table td{
 	border:10px solid white;
 }
 table img{
-	height: 40%;
+	height: 30%;
 	width: 100%;
 	
 	
@@ -104,7 +99,8 @@ table img{
 	min-height: 400px;
 	text-align: center;
 	background-color: rgb(40,187,156);
-	padding: 70px 0 70px 0px;
+	padding-top: 60px;
+	
 }
 .text-container{
 
@@ -129,7 +125,7 @@ table img{
 .boton{
 	padding-top: 50px;
 	text-align: center;
-	padding-bottom: 50px;
+
 }
 
 .boton button{
@@ -142,25 +138,26 @@ table img{
 }
 
 aside{
-	padding: 70px 20px 70px 20px;
+/*	padding: 70px 20px 70px 20px;*/
+	padding-top: 20px;
 	min-height: 200px;
 	background-color: rgb(45,62,79);
 }
 .footer-info{
 
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 .address{ 
 
-	width: 25%; 
+	width: 20%; 
 	float: left;
 	text-align: center;
 }
 
 .social{ 
 	margin: auto;	
-	width: 50%; 
+	width: 60%; 
 	float: left;
 	text-align: center;
 	
@@ -173,15 +170,23 @@ aside{
 }
 
 .contactme{ 
-	width: 25%; float: right;
+	text-align: center;
+	width: 20%; 
+	float: right;
 }
+.contactme a{
+	text-transform: lowercase;
+	color:white;
+	text-decoration: none;
+} 
 footer{
 	clear: both;
 }
 .copyright p{
 	margin:0;
-	padding-top:20px;
-	height:80px;
-	background-color: rgb(45,62,120);
+	padding-top: 5px;
+	height:30px;
+	background-color: #435466;
 	text-align:center;
+	
 }
