@@ -16,15 +16,14 @@ header h1{
 header ul {
 	float: right;
 	text-decoration: none;  
-	margin-right: 70px;
+	margin-right: 10%;
 	vertical-align: text-bottom;	
-    padding-top: 20px;
+    padding-top: 1%;
 }
 
 header ul li{	
 	display: inline;
 	margin: 0 15px 0 15px;
-	
 
 }
 header li a {
@@ -40,6 +39,7 @@ header li a {
 #presentacion, #portfolio{
 	padding: 60px 0 60px 0;
 }
+
 #presentacion{
 	min-height: 300px;
 	text-align: center;
@@ -55,7 +55,7 @@ margin-bottom: 10px;
 
 }
 .nombre{
-	font-size: 60px;	
+	font-size: 50px;	
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -71,6 +71,7 @@ text-align: center;
 	color:black;
 }
 .portfolio {
+	font-size: 30px;
 	padding-top:30px;
 	text-align: center;
 	color:black;
@@ -176,7 +177,7 @@ aside{
 }
 .contactme a{
 	text-transform: lowercase;
-	color:white;
+	color:rgb(40,187,156);;
 	text-decoration: none;
 } 
 footer{
