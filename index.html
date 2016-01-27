@@ -24,33 +24,49 @@
 		<div id="presentacion">
 			<img src="profile.png" alt="my profile">			
 			<p class="nombre">Maria de los Angeles Aguilar</p>
-			<span class="icono"><span class="line">______________</span><i class="fa fa-star"></i><span class="line">______________</span>
-			<p class="categoria">web developer </p>
+			<div id="icon-container">		
+				<div id="line-left">
+					<hr>	
+				</div>
+				<span>
+					<i class="fa fa-star fa-2x"></i>
+				</span>
+
+				<div id="line-right">
+					<hr>
+				</div>
+			</div>
+			<p id="role">Web Developer</p>
+
 		</div>
+
+
+
 		<div id="portfolio">
 
 			<h2 class="portfolio">portfolio</h2>
 			<span class="portfolio"><span class="line">______________</span><i class="fa fa-star"></i><span class="line">______________</span>
 		</span>
-		<table>
-			<tbody>				
 
-				<tr>
-					<td class="cuadrado"><img src="cabin.png" alt="picture"></td>
-					<td class="cuadrado"><img src="cake.png" alt="picture"></td>
-					<td class="cuadrado"><img src="circus.png" alt="picture"></td>
-				</tr>
-				<tr>
-					<td class="cuadrado"><img src="cake.png" alt="picture"></td>
-					<td class="cuadrado"><img src="safe.png" alt="picture"></td>
-					<td class="cuadrado"><img src="submarine.png" alt="picture"></td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="container">
+			<div class="column-left">
+				<img src="cabin.png" alt="picture">
+				<img src="game.png" alt="picture">
+			</div>
+			<div class="column-center">
+				<img src="cake.png" alt="picture">
+				<img src="circus.png" alt="picture">
+			</div>
+			<div class="column-right">
+				<img src="safe.png" alt="picture">
+				<img src="submarine.png" alt="picture">
+			</div>
+		</div>
 	</div>
 	<div id="aboutme">
 
-		<h2 class="aboutme">Sobre mi</h2>
+		<p class="aboutme">Sobre mi</p>
+
 		<span class=""><span class="line">______________</span><i class="fa fa-star"></i><span class="line">______________</span>
 		<div class="text-container">			
 			<div class="right">
@@ -70,13 +86,13 @@
 <aside>	
 	<div class="footer-info">
 		<div class="address">
-			<p>direccion</p>
+			<p id="address">dirección</p>
 			<br>
 			<p>Av Independencia 500</p>
 			<p>CABA. Bs. as. argentina</p>
 		</div>
 		<div class="social">
-			<p>redes sociales</p>
+			<p id="social">redes sociales</p>
 			<br>
 			<ul>
 				<li>
@@ -111,8 +127,8 @@
 				</li>
 			</ul>
 		</div>
-		<div id="contacto" class="contactme">
-			<p>contacto</p>
+		<div class="contactme">
+			<p id="contacto">contacto</p>
 			<br>
 			<a href="aguilangeles@gmail.com">aguilangeles@gmail.com</a>
 		</div>
